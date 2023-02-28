@@ -1,0 +1,308 @@
+/*Fondo y fondo del modal*/
+body, .modal-body{
+    background-color: #817b7b96;
+}
+/*Modal*/
+.modal-header{
+    background-color: #817b7b96;
+}
+.btn-close:hover{
+background-color:#5e88ad
+}
+/*Red social*/
+i.fa-brands.fa-instagram.fa-2xl{
+    color:#000000 
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+color:#C976EA;
+}
+/*Red y login*/
+.list-group-item{
+    --bs-list-group-bg: transparent(--bs-body-bg);
+}
+.btn-primary {
+    --bs-btn-bg: #910ca4;
+}
+.btn-primary{
+    --bs-btn-hover-bg: #000000
+}
+.list-group-item{
+    --bs-list-group-border-color: transparent;
+}
+button{
+    color:#000000
+}
+button{
+    border-color: #000000;
+}
+.btn-primary{
+    border-color: transparent
+}
+/*Formulario*/
+.form-control-plaintext {
+    border-color: #dee2e6
+}
+.form-control-plaintext{
+  color: #ae9c9c;  
+}
+/*Acerca de*/
+.acerca-de{
+    margin-top: -6rem;
+}
+.col-9.acerca-de{
+    margin-top: 12rem;
+    background-color: #eee;  
+}
+/*Experiencia, educación*/
+.row.experiencia, .row.educacion{
+    margin-top: 1rem;
+    background-color: #eeeeee; 
+}
+/*Hard & Soft Skills*/
+.row.hardysoftskills{
+    margin-top: 5rem;
+    background-color: #eeeeee;  
+}
+.row.hardskills, .row.softskills{
+    background-color: #eeeeee;
+}
+/*Barra de progreso skills e idiomas*/
+.progress{
+    background-color: #817b7b96;
+}
+.progress-bar.progress-bar-striped.progress-bar-animated{
+background-color: #910ca4;
+}
+/*Idiomas*/
+.row.idioma{
+    margin-top: 5rem;
+    background-color: #eeeeee;  
+}
+.row.idiomas{
+    background-color: #eeeeee;
+}
+/*Proyectos*/
+.row.proyectos{
+    margin-top: 5rem;
+    background-color: #eeeeee; 
+}
+
+/*Edición*/
+/*Banner*/
+.fa-solid.fa-square-pen.fa-2xl{
+    color:#910ca4
+}
+.fa-solid.fa-square-pen.fa-2xl:hover{
+    color:#000000
+}
+section.editar-banner{
+    margin-top: -2rem;
+}
+.btn.btn-banner{
+    margin-left: 5rem;
+    background-color: #000000;
+}
+/*Acerca de*/
+/*Foto*/
+.btn.btn-foto{
+margin-top: -28rem;
+background-color: #000000;
+}
+/*nombre*/
+.btn.btn-nombre{
+    margin-top: -20rem;
+    background-color: #000000;
+}
+/*Acerca de*/
+.btn.btn-acercade{
+    margin-top:-20rem;
+    margin-left: -4rem;
+    background-color: #000000;
+}
+.btn.btn-eliminaracercade{
+    margin-top:-20rem;
+    margin-left: 67.3rem;
+    background-color: #000000;
+    color:#910ca4
+}
+.fa-solid.fa-x.fa-2xl:hover{
+    color:#000000;
+}
+/*Experiencia*/
+.btn.btn-eliminarexperiencia{
+    margin-top:-12rem;
+    background-color: #000000;
+    color:#910ca4;
+}
+.btn.btn-experiencia{
+    margin-top:-12rem;
+    margin-left: -78rem;
+    background-color: #000000;
+}
+/*Educación*/
+.btn.btn-eliminareducacion1{
+    margin-top:-68rem;
+    margin-left: 65rem;
+    background-color: #000000;
+    color:#910ca4;
+}
+.btn.btn-educacion1{
+    margin-top:-68rem;
+    margin-left: 14rem;
+    background-color: #000000;
+}
+.btn.btn-eliminareducacion2{
+    margin-top:-50rem;
+    margin-left: 53.1rem;
+    background-color: #000000;
+    color:#910ca4;  
+}
+.btn.btn-educacion2{
+    margin-top:-50rem;
+    margin-left: 8rem;
+    background-color: #000000;
+    color:#910ca4; 
+}
+.btn.btn-eliminareducacion3{
+    margin-top:-30rem;
+    margin-left: 41.5rem;
+    background-color: #000000;
+    color:#910ca4;  
+}
+.btn.btn-educacion3{
+    margin-top:-30rem;
+    margin-left: 2.3rem;
+    background-color: #000000;
+    color:#910ca4; 
+}
+.btn.btn-eliminareducacion4{
+    margin-top:-18rem;
+    margin-left: 30rem;
+    background-color: #000000;
+    color:#910ca4;  
+}
+.btn.btn-educacion4{
+    margin-top:-18rem;
+    margin-left: -7.5rem;
+    background-color: #000000;
+    color:#910ca4; 
+}
+/*Hard & Soft Skills*/
+.btn.btn-eliminarskill1{
+    margin-top: -26rem;
+    margin-left: 18.8rem;
+    background-color: #000000;
+    color:#910ca4;
+}
+.btn.btn-skill1{
+    margin-top:-26rem;
+    margin-left: -42rem;
+    background-color: #000000;
+}
+.btn.btn-eliminarskill2{
+    margin-top:-26rem;
+    margin-left: 36.8rem;
+    background-color: #000000;
+    color:#910ca4;  
+}
+.btn.btn-skill2{
+    margin-top:-26rem;
+    margin-left: -6rem;
+    background-color: #000000;
+    color:#910ca4; 
+}
+.btn.btn-eliminarskill3{
+    margin-top:-26rem;
+    margin-left: 55rem;
+    background-color: #000000;
+    color:#910ca4;  
+}
+.btn.btn-skill3{
+    margin-top:-26rem;
+    margin-left: 15.8rem;
+    background-color: #000000;
+    color:#910ca4; 
+}
+.btn.btn-eliminarskill4{
+    margin-top:-11rem;
+    margin-left: 49.2rem;
+    background-color: #000000;
+    color:#910ca4;  
+}
+.btn.btn-skill4{
+    margin-top:-11rem;
+    margin-left: 10rem;
+    background-color: #000000;
+    color:#910ca4; 
+}
+.btn.btn-eliminarskill5{
+    margin-top:-11rem;
+    margin-left:19rem;
+    background-color: #000000;
+    color:#910ca4;  
+}
+.btn.btn-skill5{
+    margin-top:-11rem;
+    margin-left: -41.5rem;
+    background-color: #000000;
+    color:#910ca4; 
+}
+.btn.btn-eliminarskill6{
+    margin-top:-11rem;
+    margin-left: -24rem;
+    background-color: #000000;
+    color:#910ca4;  
+}
+.btn.btn-skill6{
+    margin-top:-11rem;
+    margin-left: -102rem;
+    background-color: #000000;
+    color:#910ca4; 
+}
+/*Idiomas*/
+.btn.btn-eliminaridioma1{
+    margin-top: -12rem;
+    margin-left: 18.8rem;
+    background-color: #000000;
+    color:#910ca4;
+}
+.btn.btn-idioma1{
+    margin-top:-12rem;
+    margin-left: -47.8rem;
+    background-color: #000000;
+}
+.btn.btn-eliminaridioma2{
+    margin-top:-12rem;
+    margin-left: 31rem;
+    background-color: #000000;
+    color:#910ca4;  
+}
+.btn.btn-idioma2{
+    margin-top:-12rem;
+    margin-left:-23.5rem;
+    background-color: #000000;
+    color:#910ca4; 
+}
+.btn.btn-eliminaridioma3{
+    margin-top:-12rem;
+    margin-left: 43rem;
+    background-color: #000000;
+    color:#910ca4;  
+}
+.btn.btn-idioma3{
+    margin-top:-12rem;
+    margin-left: 0.5rem;
+    background-color: #000000;
+    color:#910ca4; 
+}
+/*Proyectos*/
+.btn.btn-eliminarproyecto1{
+    margin-top: -25rem;
+    background-color: #000000;
+    color:#910ca4;
+}
+.btn.btn-proyecto1{
+    margin-top:-25rem;
+    margin-left: -78rem;
+    background-color: #000000;
+}

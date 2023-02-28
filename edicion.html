@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/53dbf29d36.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/Style.css">
+</head>
+<body>
+ <!--Barra de navegación-->
+  <nav class="navbar navbar-expand-lg bg-body-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="Assets/IMG/favicon.ico" alt="Logo" width="5%" height="5%" class="d-inline-block align-text-top">
+        Argentina Programa #YoProgramo
+      </a>
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a href="https://www.instagram.com/agustina_correaaa/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary">
+         Logout
+        </button>
+      </ul>
+    </div>
+  </nav>
+  <!--Banner-->
+  <div class="banner">
+    <img src="Assets/IMG/pexels-lukas-574073 (10).jpg" class="d-block w-100" alt="agustina-developer" height="300">
+ </div>
+ <!-- Button editar banner -->
+ <section id="editar-banner" class="editar-banner">
+ <div class="container text-center">
+  <div class="row">
+    <div class="col-11">
+    </div>
+    <div class="col-1">
+      <button type="button" class="btn btn-banner" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+    </div>
+  </div>
+ </div>
+ </section>
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Banner</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="formFile" class="form-label"></label>
+          <input class="form-control" type="file" id="formFile">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+ </div>
+ 
+  <!--Acerca de-->
+ <section id="acerca-de" class="acerca-de">
+   <div class="container text-center">
+     <div class="row">
+       <div class="col-3">
+         <img src="Assets/IMG/Imagen de WhatsApp 2023-02-07 a las 08.41.58.jpg" class="rounded-circle w-75"> 
+         <h5>Agustina Correa</h5>
+       </div>
+       <div class="col-9 acerca-de" align="left">
+         <h1><strong><u>Acerca de</u></strong></h1>
+         <h4>Full Stack Developer Jr. Certificada en la primera etapa del Plan Argentina Programa #SéProgramar. Estudiante de Profesorado de Biología.</h4>
+       </div>
+     </div>
+   </div>
+ </section>
+  <!-- Button editar foto-->
+  <section id="editar-foto" class="editar-foto">
+    <div class="container text-center">
+     <div class="row">
+       <div class="col-3">
+        <button type="button" class="btn btn-foto" data-bs-toggle="modal" data-bs-target="#fotoModal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+        </button>
+       </div>
+       <div class="col-9">
+       </div>
+     </div>
+    </div>
+   </section>
+   <!-- Modal editar foto-->
+   <div class="modal fade" id="fotoModal" tabindex="-1" aria-labelledby="fotoModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h1 class="modal-title fs-5" id="fotoModalLabel">Editar Foto</h1>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           <div class="mb-3">
+             <label for="formFile" class="form-label"></label>
+             <input class="form-control" type="file" id="formFile">
+           </div>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-primary">Guardar</button>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- Button editar nombre-->
+  <section id="editar-nombre" class="editar-nombre">
+    <div class="container text-center">
+     <div class="row">
+       <div class="col-5">
+        <button type="button" class="btn btn-nombre" data-bs-toggle="modal" data-bs-target="#nombreModal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+        </button>
+       </div>
+       <div class="col-7">
+       </div>
+     </div>
+    </div>
+   </section>
+   <!-- Modal editar nombre-->
+   <div class="modal fade" id="nombreModal" tabindex="-1" aria-labelledby="nombreModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="nombreModalLabel">Editar nombre</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input class="form-control" type="text" placeholder="Nombre y apellido" aria-label="default input example">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Button editar acerca de-->
+  <section id="editar-acerca-de" class="editar-acerca-de">
+    <div class="container text-center">
+     <div class="row">
+       <div class="col-11">
+        <button type="button" class="btn btn-eliminaracercade" data-bs-toggle="modal" data-bs-target="#eliminaracercadeModal"><i class="fa-solid fa-x fa-2xl"></i></i>
+       </div>
+       <div class="col-1">
+        <button type="button" class="btn btn-acercade" data-bs-toggle="modal" data-bs-target="#acercadeModal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+        </button>
+       </div>
+     </div>
+    </div>
+   </section>
+   <!-- Modal acerca de-->
+   <div class="modal fade" id="acercadeModal" tabindex="-1" aria-labelledby="acercadeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="acercadeModalLabel">Editar "A cerca de..."</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+     
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Información profesional resumida"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Experiencia-->
+ <section id="experiencia" class="experiencia">
+  <div class="container text-center">
+    <div class="row experiencia">
+      <div class="col-11" align="left">
+        <h1><strong><u>Experiencia</u></strong></h1>
+        <br>
+        <h3><b>Niñera.</b></h3>
+        <h4>Desde mayo del año 2022 hasta la actualidad.</h4>
+      </div>
+      <div class="col-1">
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- Button editar experiencia-->
+ <section id="editar-experiencia" class="editar-experiencia">
+  <div class="container text-center">
+   <div class="row">
+     <div class="col-11">
+      <button type="button" class="btn btn-eliminarexperiencia" data-bs-toggle="modal" data-bs-target="#eliminarexperienciaModal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-experiencia" data-bs-toggle="modal" data-bs-target="#experienciaModal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+   </div>
+  </div>
+ </section>
+ <!-- Modal experiencia-->
+ <div class="modal fade" id="experienciaModal" tabindex="-1" aria-labelledby="experienciaModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="experienciaModalLabel">Editar experiencia</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Puesto</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Educación-->
+<section id="educacion" class="educacion">
+  <div class="container text-center">
+    <div class="row educacion">
+      <div class="col-2">
+        <h1><strong><u>Educación</u></strong></h1>
+        <br>
+        <img src="Assets/IMG/Escuela-secundaria.jpg" class="img-fluid img-thumbnail" width="100" height="100">
+      </div>
+      <div class="col-10 eduacion" align="left">
+        <br><br><br><br>
+        <h4>Escuela Secundaria Emilio Valentin Alavedra. Egresada en el año 2019 de Bachiller con orientación en ciencias naturales.</h4>
+      </div>
+      <div class="row superior">
+        <div class="col-2">
+          <br>
+          <img src="Assets/IMG/ISFD.png" class="img-fluid img-thumbnail" width="100" height="100">
+        </div>
+        <div class="col-10 eduacion" align="left">
+          <br><br>
+          <h4>Instituto Superior de Formación Docente Nº168. Estudiando Profesorado de biología desde el año 2020.</h4>
+        </div>
+      </div>
+      <div class="row curso">
+        <div class="col-2">
+          <br>
+          <img src="Assets/IMG/favicon.ico" class="img-fluid img-thumbnail" width="100" height="100">
+        </div>
+        <div class="col-10 eduacion" align="left">
+          <br><br>
+          <h4>Argentina programa #SéProgramar. Aprobada en junio del año 2022.</h4>
+        </div>
+        <div class="row curso">
+          <div class="col-2">
+            <br>
+            <img src="Assets/IMG/favicon.ico" class="img-fluid img-thumbnail" width="100" height="100">
+            <br><br>
+          </div>
+          <div class="col-10 eduacion" align="left">
+            <br><br>
+            <h4>Argentina programa #YoProgramo. Estudiando Full Stack Developer Jr. desde octubre del año 2022.</h4>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Button editar educación-->
+<section id="editar-educacion" class="editar-educacion">
+  <div class="container text-center">
+   <div class="row">
+     <div class="col-2">
+      <button type="button" class="btn btn-eliminareducacion1" data-bs-toggle="modal" data-bs-target="#eliminareducacion1Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-2">
+      <button type="button" class="btn btn-eliminareducacion2" data-bs-toggle="modal" data-bs-target="#eliminareducacion2Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-2">
+      <button type="button" class="btn btn-eliminareducacion3" data-bs-toggle="modal" data-bs-target="#eliminareducacion3Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-2">
+      <button type="button" class="btn btn-eliminareducacion4" data-bs-toggle="modal" data-bs-target="#eliminareducacion4Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-educacion1" data-bs-toggle="modal" data-bs-target="#educacion1Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-educacion2" data-bs-toggle="modal" data-bs-target="#educacion2Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-educacion3" data-bs-toggle="modal" data-bs-target="#educacion3Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-educacion4" data-bs-toggle="modal" data-bs-target="#educacion4Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+   </div>
+  </div>
+ </section>
+ <!-- Modal educación-->
+ <div class="modal fade" id="educacion1Modal" tabindex="-1" aria-labelledby="educacion1ModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="educacion1ModalLabel">Editar educación</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <div class="mb-3">
+           <label for="formFile" class="form-label">Logo</label>
+           <input class="form-control" type="file" id="formFile">
+         </div>
+         <div class="mb-3">
+           <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+         </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-primary">Guardar</button>
+       </div>
+     </div>
+   </div>
+  </div>
+  <div class="modal fade" id="educacion2Modal" tabindex="-1" aria-labelledby="educacion2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="educacion2ModalLabel">Editar educación</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Logo</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="modal fade" id="educacion3Modal" tabindex="-1" aria-labelledby="educacion3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="educacion3ModalLabel">Editar educación</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Logo</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="modal fade" id="educacion4Modal" tabindex="-1" aria-labelledby="educacion4ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="educacion4ModalLabel">Editar educación</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Logo</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+   </div>
+<!--Hard & Soft Skills-->
+<section id="hardysoftskills" class="hardysoftskills">
+  <div class="container text-center">
+    <div class="row hardysoftskills">
+      <div class="col-11" align="left">
+        <h1><strong><u>Hard & Soft Skills</u></strong></h1>
+        <br><br>
+      </div>
+      <div class="col-1">
+      </div>
+    </div>
+    <div class="row hardskills">
+      <div class="col-4">
+        <h4>HMTL</h4>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%">85%</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <h4>CSS</h4>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">80%</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <h4>Bootstrap</h4>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%">90%</div>
+        </div>
+      </div>
+    </div>
+    <div class="row softskills">
+      <div class="col-4">
+        <br><br><br>
+        <h4>Adaptación a los cambios</h4>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">100%</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <br><br><br>
+        <h4>Comunicación</h4>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">75%</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <br><br><br>
+        <h4>Gestión del tiempo</h4>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%">90%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Button editar Hard & Soft Skills-->
+<section id="editar-skills" class="editar-skills">
+  <div class="container text-center">
+   <div class="row">
+     <div class="col-1">
+      <button type="button" class="btn btn-eliminarskill1" data-bs-toggle="modal" data-bs-target="#eliminarskill1Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-eliminarskill2" data-bs-toggle="modal" data-bs-target="#eliminarskill2Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-eliminarskill3" data-bs-toggle="modal" data-bs-target="#eliminarskill3Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-eliminarskill4" data-bs-toggle="modal" data-bs-target="#eliminarskill4Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-eliminarskill5" data-bs-toggle="modal" data-bs-target="#eliminarskill5Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-eliminarskill6" data-bs-toggle="modal" data-bs-target="#eliminarskill6Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-skill1" data-bs-toggle="modal" data-bs-target="#skill1Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-skill2" data-bs-toggle="modal" data-bs-target="#skill2Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-skill3" data-bs-toggle="modal" data-bs-target="#skill3Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-skill4" data-bs-toggle="modal" data-bs-target="#skill4Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-skill5" data-bs-toggle="modal" data-bs-target="#skill5Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+     <div class="col-1">
+      <button type="button" class="btn btn-skill6" data-bs-toggle="modal" data-bs-target="#skill6Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+   </div>
+  </div>
+ </section>
+ <!-- Modal Hard & Soft Skills-->
+ <div class="modal fade" id="skill1Modal" tabindex="-1" aria-labelledby="skill1ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="skill1ModalLabel">Editar skill</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Skill</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Porcentaje</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+ </div>
+ <div class="modal fade" id="skill2Modal" tabindex="-1" aria-labelledby="skill2ModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="skill2ModalLabel">Editar skill</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Skill</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Porcentaje</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-primary">Guardar</button>
+       </div>
+     </div>
+   </div>
+  </div>
+  <div class="modal fade" id="skill3Modal" tabindex="-1" aria-labelledby="skill3ModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="skill3ModalLabel">Editar skill</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Skill</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Porcentaje</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-primary">Guardar</button>
+       </div>
+     </div>
+   </div>
+  </div>
+  <div class="modal fade" id="skill4Modal" tabindex="-1" aria-labelledby="skill4ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="skill4ModalLabel">Editar skill</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <div class="mb-3">
+           <label for="exampleFormControlInput1" class="form-label">Skill</label>
+           <input type="text" class="form-control" id="exampleFormControlInput1">
+         </div>
+         <div class="mb-3">
+           <label for="exampleFormControlInput1" class="form-label">Porcentaje</label>
+           <input type="text" class="form-control" id="exampleFormControlInput1">
+         </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+   </div>
+  <div class="modal fade" id="skill5Modal" tabindex="-1" aria-labelledby="skill5ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="skill5ModalLabel">Editar skill</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <div class="mb-3">
+           <label for="exampleFormControlInput1" class="form-label">Skill</label>
+           <input type="text" class="form-control" id="exampleFormControlInput1">
+         </div>
+         <div class="mb-3">
+           <label for="exampleFormControlInput1" class="form-label">Porcentaje</label>
+           <input type="text" class="form-control" id="exampleFormControlInput1">
+         </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="modal fade" id="skill6Modal" tabindex="-1" aria-labelledby="skill6ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="skill6ModalLabel">Editar skill</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <div class="mb-3">
+           <label for="exampleFormControlInput1" class="form-label">Skill</label>
+           <input type="text" class="form-control" id="exampleFormControlInput1">
+         </div>
+         <div class="mb-3">
+           <label for="exampleFormControlInput1" class="form-label">Porcentaje</label>
+           <input type="text" class="form-control" id="exampleFormControlInput1">
+         </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+   </div>
+<!--Idiomas-->
+<section id="idiomas" class="idiomas">
+  <div class="container text-center">
+    <div class="row idioma">
+      <div class="col-11" align="left">
+        <h1><strong><u>Idiomas</u></strong></h1>
+        <br><br>
+      </div>
+      <div class="col-1">
+      </div>
+    </div>
+    <div class="row idiomas">
+      <div class="col-4">
+        <h4>Español</h4>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">100%</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <h4>Ingles</h4>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">50%</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <h4>Italiano</h4>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 20%">20%</div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- Button editar idiomas-->
+<section id="editar-idiomas" class="editar-idiomas">
+  <div class="container text-center">
+   <div class="row">
+     <div class="col-2">
+      <button type="button" class="btn btn-eliminaridioma1" data-bs-toggle="modal" data-bs-target="#eliminaridioma1Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-2">
+      <button type="button" class="btn btn-eliminaridioma2" data-bs-toggle="modal" data-bs-target="#eliminaridioma2Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-2">
+      <button type="button" class="btn btn-eliminaridioma3" data-bs-toggle="modal" data-bs-target="#eliminaridioma3Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+     </div>
+     <div class="col-2">
+      <button type="button" class="btn btn-idioma1" data-bs-toggle="modal" data-bs-target="#idioma1Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+     <div class="col-2">
+      <button type="button" class="btn btn-idioma2" data-bs-toggle="modal" data-bs-target="#idioma2Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+     <div class="col-2">
+      <button type="button" class="btn btn-idioma3" data-bs-toggle="modal" data-bs-target="#idioma3Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+   </div>
+  </div>
+ </section>
+ <!-- Modal Hard & Soft Skills-->
+ <div class="modal fade" id="idioma1Modal" tabindex="-1" aria-labelledby="idioma1ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="idioma1ModalLabel">Editar idioma</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Idioma</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Porcentaje</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+ </div>
+ <div class="modal fade" id="idioma2Modal" tabindex="-1" aria-labelledby="idioma2ModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="idioma2ModalLabel">Editar idioma</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Idioma</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Porcentaje</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-primary">Guardar</button>
+       </div>
+     </div>
+   </div>
+  </div>
+  <div class="modal fade" id="idioma3Modal" tabindex="-1" aria-labelledby="idioma3ModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="idioma3ModalLabel">Editar idioma</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">idioma</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Porcentaje</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-primary">Guardar</button>
+       </div>
+     </div>
+   </div>
+  </div>
+<!--Proyectos-->
+<section id="proyectos" class="proyectos">
+  <div class="container text-center">
+    <div class="row proyectos">
+      <div class="col-11" align="left">
+        <h1><strong><u>Proyectos</u></strong></h1>
+        <br>
+        <h3><b>Portfolio web</b></h3>
+        <h4>Año 2023. Aplicación web full stack que muestra: mis datos personales, estudios cursados, experiencia laboral y conocimiento de las tecnologías. Esta aplicación es de arquitectura distribuida y contiene un diseño de interfaz de usuario (front end) que muestra la información, una base de datos que almacena los datos antes mencionados y APIs necesarias para proveer a través de internet la información (back end).</h4>
+      </div>
+      <div class="col-1">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Button editar proyectos-->
+<section id="editar-proyectos" class="editar-proyectos">
+  <div class="container text-center">
+   <div class="row">
+     <div class="col-6">
+      <button type="button" class="btn btn-eliminarproyecto1" data-bs-toggle="modal" data-bs-target="#eliminarproyecto1Modal"><i class="fa-solid fa-x fa-2xl"></i></i>
+      </div>
+     <div class="col-6">
+      <button type="button" class="btn btn-proyecto1" data-bs-toggle="modal" data-bs-target="#proyecto1Modal"><i class="fa-solid fa-square-pen fa-2xl"></i>
+      </button>
+     </div>
+   </div>
+  </div>
+ </section>
+ <!-- Modal proyectos-->
+ <div class="modal fade" id="proyecto1Modal" tabindex="-1" aria-labelledby="proyecto1ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="proyecto1ModalLabel">Editar proyecto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Proyecto</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+</body>
+</html>
