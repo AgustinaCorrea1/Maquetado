@@ -1,0 +1,77 @@
+{
+    "nombre":"Agustina",
+    "apellido":"Correa",
+    "edad": 21,
+    "instagram": true,
+    "login": {
+        "email": "agustinacorrea1607@gmail.com",
+        "contraseña": 2023,
+        "portofolio": true
+    },
+    "experiencia": [
+        {
+            "puesto":"Niñera",
+            "periodo": "2022 - actualidad"
+        }
+     ],
+ "educacion": [
+    {
+        "nivel":"Secundario",
+        "institución": "Escuela secundaria E. V. Alavedra",
+        "finalización": 2019
+    },
+    {
+        "nivel":"Terciario",
+        "institución": "Instituto superior de formación docente N168",
+        "finalización": false
+    }
+ ],
+ "hard skills": [
+    {
+        "skill":"HTML",
+        "porcentaje": 85
+    },
+    {
+        "skill":"CSS",
+        "porcentaje": 80
+    },
+    {
+        "skill":"Bootstrap",
+        "porcentaje": 90
+    }
+ ],
+ "soft skills": [
+    {
+        "skill":"Adaptacion a los cambios",
+        "porcentaje": 100
+    },
+    {
+        "skill":"Comunicación",
+        "porcentaje": 75
+    },
+    {
+        "skill":"Gestión del tiempo",
+        "porcentaje": 90
+    }
+ ],
+ "idiomas": [
+    {
+        "idioma":"Español",
+        "porcentaje": 100
+    },
+    {
+        "idioma":"Ingles",
+        "porcentaje": 50
+    },
+    {
+        "idioma":"Italiano",
+        "porcentaje": 20
+    }
+ ],
+ "proyectos": [
+    {
+        "nombre":"Portfolio web",
+        "año": 2023
+    }
+ ]
+}
